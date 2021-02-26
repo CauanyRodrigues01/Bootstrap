@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap_",
+  "version": "1.0.0",
+  "description": ":crystal_ball: ​ Bootstrap é um framework _front-end_ e de código _código aberto_ que permite o desenvolvimento rápido de sites responsivos com consistência de bibliotecas e comandos. É o framework _front-end_  mais utilizado pelo mundo .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CauanyRodrigues01/Bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CauanyRodrigues01/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/CauanyRodrigues01/Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
