@@ -2,7 +2,7 @@
 
 :crystal_ball: ​ Bootstrap é um framework _front-end_ e de código _código aberto_ que permite o desenvolvimento rápido de sites responsivos com consistência de bibliotecas e comandos. É o framework _front-end_  mais utilizado pelo mundo .
 
-:mag_right: [Framework?](#framework)
+:mag_right: [O que é Framework?](#framework)
 
 
 
@@ -30,7 +30,7 @@ São 3 arquivos principais: [Bootstrap.css](#Bootstrap.css), [Bootstrap.js](#Boo
 
 É um framework JavaScript responsável pela interatividade de um site. Para não terem que sempre escrever sintaxes de JavaScript, os desenvolvedores tendem a usar jQuery.  
 
-:mag_right: [O que é JQuery?](#JQuery:)
+:mag_right: [O que é JQuery?](#JQuery)
 
 ### Glyphicons
 
