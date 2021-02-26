@@ -2,13 +2,39 @@
 
 :crystal_ball: ​ Bootstrap é um framework _front-end_ e de código _código aberto_ que permite o desenvolvimento rápido de sites responsivos com consistência de bibliotecas e comandos. É o framework _front-end_  mais utilizado pelo mundo .
 
-:mag_right: [O que é Framework?](#📌Framework:)
+:mag_right: [O que é Framework?](#Framework:)
 
 
 
 ## Como surgiu❓
 
 :bulb:  Quando os engenheiros do Twitter Jacob Thorton e Mark Otto tentaram resolver uma incompatibilidade dentro da própria equipe em 2010. Logo, perceberam a grande potencialidade que aquela ideia tinha para o mundo do desenvolvimento web e foi então que lançaram no GitHub como um software livre que logo recebeu a contribuição de inúmeros desenvolvedores de todo o planeta.
+
+
+
+## O que é capaz de fazer❓
+
+:clipboard:  É possível criar interfaces gráficas de forma rápida e fácil utilizando, por exemplo, layout de Grid responsivo, criar tabelas com padrões pré definidos, criar figuras com estilo base, criar modal, botões e muito mais. A [documentação do Bootstrap](https://getbootstrap.com.br/docs/4.1/getting-started/introduction/) é riquíssima, por isso é recomendado lê-la. 
+
+
+
+## Os 3 Arquivos Primários
+
+São 3 arquivos principais: [Bootstrap.css](#Bootstrap.css), [Bootstrap.js](#Bootstrap.js), [Glyphicons](#Glyphicons)
+
+### Bootstrap.css
+
+É um framework CSS que organiza e gerencia o layout de um site. É por meio do documento HTML que o desenvolvedor vai adicionando as funcionalidades desse arquivo na sua página.
+
+### Bootstrap.js
+
+É um framework JavaScript responsável pela interatividade de um site. Para não terem que sempre escrever sintaxes de JavaScript, os desenvolvedores tendem a usar jQuery.  
+
+:mag_right: [O que é JQuery?](#JQuery:)
+
+### Glyphicons
+
+O Bootstrap utiliza o Glyphicons que é uma extensa biblioteca de ícones vetoriais de alta qualidade.
 
 
 
@@ -101,40 +127,14 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
 
 
 
-## O que é possível fazer❓
-
-:clipboard:  É possível criar interfaces gráficas de forma rápida e fácil utilizando, por exemplo, layout de Grid responsivo, criar tabelas com padrões pré definidos, criar figuras com estilo base, criar modal, botões e muito mais. A [documentação do Bootstrap](https://getbootstrap.com.br/docs/4.1/getting-started/introduction/) é riquíssima, por isso é recomendado lê-la. 
-
-
-
-## Os 3 Arquivos Primários
-
-São 3 arquivos principais: [Bootstrap.css](#Bootstrap.css), [Bootstrap.js](#Bootstrap.js), [Glyphicons](#Glyphicons)
-
-### Bootstrap.css
-
-É um framework CSS que organiza e gerencia o layout de um site. É por meio do documento HTML que o desenvolvedor vai adicionando as funcionalidades desse arquivo na sua página.
-
-### Bootstrap.js
-
-É um framework JavaScript responsável pela interatividade de um site. Para não terem que sempre escrever sintaxes de JavaScript, os desenvolvedores tendem a usar jQuery.  
-
-:mag_right: [O que é JQuery?](#📌 JQuery:)
-
-### Glyphicons
-
-O Bootstrap utiliza o Glyphicons que é uma extensa biblioteca de ícones vetoriais de alta qualidade.
-
-
-
 ###### Veja mais:
 
-- #### 📌Framework:
+- #### Framework:
   
 
 :mag_right:  É um conjunto de códigos prontos que são disponibilizados na comunidade para serem usados por outros desenvolvedores. O intuito do uso pacotes pacotes é aplicar características, comandos e estruturas já prontas para garantir qualidade no projeto e produtividade. Para saber mais clique [aqui](https://rockcontent.com/br/blog/framework/)
 
-- #### 📌 JQuery:
+- #### JQuery:
 
 :mag_right:  É uma plataforma de código-aberto popular que permite adicionar várias funcionalidades em um site.  Para saber mais clique [aqui](https://www.hostinger.com.br/tutoriais/o-que-e-jquery)
 
