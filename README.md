@@ -118,10 +118,8 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
   10. No `<head>`  o link é direcionado para os arquivos criados na máquina:
 
       ```html
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css"> <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
       ```
-  
-      
   
   11. Antes de fechar a tag `<body>`, adicionar os seguintes códigos que fazem referencia aos arquivos criados na máquina :
   
