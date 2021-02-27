@@ -113,15 +113,17 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
 
   9. Digite `sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler`
 
-     Pronto, tudo está instalado na máquina e é possível modificar as classes do bootstrap. Agora veja como usar tudo isso nos seus arquivos HTML: 
+     Pronto, tudo está instalado na máquina e é possível modificar as classes do bootstrap. Agora veja como usar tudo isso nos seus arquivos HTML. 
   
-  10. No `<head>`  a link é direcionado para os arquivos criados na máquina: 
+  10. No `<head>`  o link é direcionado para os arquivos criados na máquina:
 
       ```html
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css"> <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
       ```
   
-  11. Antes de fechar a tag `<body>`, adicionar o seguinte código:
+      
+  
+  11. Antes de fechar a tag `<body>`, adicionar os seguintes códigos que fazem referencia aos arquivos criados na máquina :
   
       ```html
       <script src="node_modules/jquery/dist/jquery.js"></script>
@@ -150,7 +152,7 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
 
 :mag_right:  O NPM é uma ferramenta do [Node.js](https://rockcontent.com/blog/node-js/) para o gerenciamento de pacotes. Ele permite instalar, desinstalar e atualizar dependências em uma aplicação por meio de uma simples instrução na linha de comando. Para saber mais clique [aqui](https://rockcontent.com/br/blog/npm/).
 
-- #### 
+
 
 ###### Fonte:
 
