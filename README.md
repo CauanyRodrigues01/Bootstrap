@@ -112,7 +112,7 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
       <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
       ```
   
-  11. Antes de fechar a tag `<body>`, adicionar os seguintes códigos que fazem referencia aos arquivos criados na máquina :
+  11. Antes de fechar a tag `<body>`, adicionar os seguintes códigos que fazem referencia aos arquivos criados na máquina:
   
       ```html
       <script src="node_modules/jquery/dist/jquery.js"></script>
