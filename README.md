@@ -4,8 +4,6 @@
 
 :mag_right: [O que é Framework?](#framework)
 
-
-
 ## Como surgiu❓
 
 :bulb:  Quando os engenheiros do Twitter Jacob Thorton e Mark Otto tentaram resolver uma incompatibilidade dentro da própria equipe em 2010. Logo, perceberam a grande potencialidade que aquela ideia tinha para o mundo do desenvolvimento web e foi então que lançaram no GitHub como um software livre. Em pouco tempo, a ferramenta recebeu contribuição de inúmeros desenvolvedores de todo o planeta.
@@ -15,8 +13,6 @@
 ## O que é capaz de fazer❓
 
 :clipboard:  É possível criar interfaces gráficas de forma rápida e fácil, utilizando layout de Grid responsivo, criando tabelas com padrões predefinidos, figuras com estilo base, modal, botões e muito mais. A [documentação do Bootstrap](https://getbootstrap.com.br/docs/4.1/getting-started/introduction/) é riquíssima, por isso é recomendado lê-la. 
-
-
 
 ## Os 3 Arquivos Primários
 
@@ -35,8 +31,6 @@ São 3 arquivos principais: Bootstrap.css, Bootstrap.js, e Glyphicons
 ### Glyphicons
 
 O Bootstrap utiliza o Glyphicons que é uma extensa biblioteca de ícones vetoriais de alta qualidade.
-
-
 
 ## Como baixar no Windows❓
 
@@ -71,8 +65,6 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
      ```
 
-     
-
 - #### Usando CSS e JS compilado
 
   Basta clicar nesse [link](https://github.com/twbs/bootstrap/releases/download/v4.1.3/bootstrap-4.1.3-dist.zip) do site do Bootstrap que os arquivos serão baixados, depois, é só extrair.
@@ -85,7 +77,6 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
 
   - Dificuldade na personalização das classes do Bootstrap
 
-    
 
 - #### Usando arquivos fontes
 
@@ -117,9 +108,9 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
   
   10. No `<head>`  o link é direcionado para os arquivos criados na máquina:
 
-      ```html
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-      ```
+     ```html
+     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+     ```
   
   11. Antes de fechar a tag `<body>`, adicionar os seguintes códigos que fazem referencia aos arquivos criados na máquina :
   
@@ -129,13 +120,10 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
       <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
       ```
 
-
-
 ###### Veja mais:
 
 - #### Framework:
   
-
 :mag_right:  É um conjunto de códigos prontos que são disponibilizados na comunidade para serem usados por outros desenvolvedores. O intuito do uso desses pacotes é aplicar características, comandos e estruturas já prontas para garantir qualidade no projeto e produtividade. Para saber mais clique [aqui](https://rockcontent.com/br/blog/framework/).
 
 - #### JQuery:
@@ -150,13 +138,11 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
 
 :mag_right:  O NPM é uma ferramenta do [Node.js](https://rockcontent.com/blog/node-js/) para o gerenciamento de pacotes. Ele permite instalar, desinstalar e atualizar dependências em uma aplicação por meio de uma simples instrução na linha de comando. Para saber mais clique [aqui](https://rockcontent.com/br/blog/npm/).
 
-
-
 ###### Fonte:
 
 - [Documentação do Bootstrap](https://getbootstrap.com.br/docs/4.1/getting-started/introduction/)
 
-- [O Que é Bootstrap? Guia para Iniciantes]( https://www.hostinger.com.br/tutoriais/o-que-e-bootstrap)  
+- [O Que é Bootstrap? Guia para Iniciantes](https://www.hostinger.com.br/tutoriais/o-que-e-bootstrap)  
 
 - [O Que é Bootstrap e Para Que Serve?](https://www.ciawebsites.com.br/sites/o-que-e-bootstrap/)
 
