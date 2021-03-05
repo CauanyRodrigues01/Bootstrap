@@ -120,10 +120,190 @@ Existe três maneiras de adicionar o bootstrap no seu projeto:
       <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
       ```
 
-###### Veja mais:
+## Containers responsivos com Bootstrap
+
+Container é um dos principais componentes do Bootstrap. É invisível e permite que o layout da pagina fique alinhado corretamente nos dispositivos. No Bootstrap todos os elementos visuais da página devem estar dentro de, pelo menos, um container.
+
+Para usá-lo basta criar uma tag html e dentro declarar uma classe chamada `.container` ou .`container-fluid`:
+
+- #### Classe .container
+
+  Usado para conteúdo responsivo com largura limitada:
+
+  ```html
+  <div class="container"> ... </div>
+  ```
+
+- #### Classe .container-fluid
+
+  Usado para conteúdo responsivo com largura fluída, ou seja, toda a largura da janela.
+
+  ```html
+  <div class="container-fluid"> ... </div>
+  ```
+
+## Imagens responsivas com Bootstrap
+
+Para tornar as imagens responsivas usa-se a classe `.img-fluid`.
+
+```html
+<img src="..." class="img-fluid" alt="...">
+```
+
+- #### Imagens com cantos arredendados
+
+  ```html
+  <img src="..." class="rounded" alt="...">
+  ```
+
+- #### Imagens em círculo
+
+  ```html
+  <img src="..." class="rounded-circle" alt="...">
+  ```
+
+- #### Imagem em miniatura com bordas
+
+  ```html
+  <img src="..." class="img-thumbnail" alt="...">
+  ```
+
+- #### Alinhamento de imagens
+
+  O alinhamento pode ser feito usando os outros recursos do Bootstrap, como as classes para alinhamento de texto. Mas existe a forma própria para imagem usando as seguintes classes:
+
+  - Para direita
+
+  ```html
+  <img src="..." class="float-right" alt="...">
+  ```
+
+  - Para esquerda
+
+  ```html
+  <img src="..." class="float-left" alt="...">
+  ```
+
+  - Centrada
+
+    mx-auto = margin:auto
+
+    d-block = display:block
+
+  ```html
+  <img src="..." class="mx-auto d-block" alt="...">
+  ```
+
+## Texto com Bootstrap
+
+- #### Alinhamento
+
+  - Texto justificado
+
+  ```html
+  <p class="text-justify">...</p>
+  ```
+
+  - Alinhado à esquerda
+
+  ```html
+  <p class="text-left">...</p>
+  ```
+
+  - Alinhado à direita
+
+  ```html
+  <p class="text-right">...</p>
+  ```
+
+  - Centralizado
+
+  ```html
+  <p class="text-center">...</p>
+  ```
+
+  - Outros: `.text-sm-left`, `.text-md-left`, `.text-lg-left`, `.text-xl-left`
+
+- #### Quebra e transbordamento de texto
+
+  Para evitar que o texto quebre, usa-se a classe `.text-nowrap`.
+
+  ```html
+  <div class="text-nowrap"> ... </div>
+  ```
+
+  Para reduzir o texto com reticências, usa-se o `.text-truncate`
+
+  ```html
+  <div class="text-truncate"> ... </div>
+  ```
+
+## Botões com Bootstrap
+
+A classe `.btn` foi desenhada para ser usada com o elemento `<button>`, mas pode ser usada nos elementos `<a>` ou `<input>`. Observe que os botões sempre precisam da classe `btn`. Veja alguns exemplos:
+
+```html
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+```
+
+Para usar um botão sem backround basta modificar as classes padrões por `.btn-outline-*`, sendo * as especificações do botão, por exemplo:
+
+```html
+<button type="button" class="btn btn-outline-primary">Primary</button>
+```
+
+- #### Tamanho dos botões
+
+  - Botão grande (`btn-lg`)
+
+    ```html
+    <button type="button" class="btn btn-primary btn-lg">Botão grande</button>
+    ```
+
+  - Botão pequeno (`.btn-sm`)
+
+    ```html
+    <button type="button" class="btn btn-primary btn-sm">Botão pequeno</button>
+    ```
+
+  - Botão que ocupa a largura do pai (`.btn-block`)
+
+    ```html
+    <button type="button" class="btn btn-primary btn-lg btn-block">Botão block-level</button>
+    ```
+
+  - Botão com estado ativo
+
+    Não há necessidade de usar a classe no `<button>`, porque já é o padrão. Para forçar a aparência, usa-se a classe `.active` e o atributo `aria-pressed="true"`.
+
+    ```html
+    <a href="#" class="btn btn-primary active" role="button" aria-pressed="true">Link primário</a>
+    ```
+
+  - Botão com estado desativado
+
+     usa-se o atributo booleano `disabled` em qualquer elemento `<button>`.
+
+    ```html
+    <button type="button" class="btn btn-lg btn-primary" disabled>Botão primário</button>
+    ```
+
+    
+
+###### Saiba mais:
 
 - #### Framework:
   
+
 :mag_right:  É um conjunto de códigos prontos que são disponibilizados na comunidade para serem usados por outros desenvolvedores. O intuito do uso desses pacotes é aplicar características, comandos e estruturas já prontas para garantir qualidade no projeto e produtividade. Para saber mais clique [aqui](https://rockcontent.com/br/blog/framework/).
 
 - #### JQuery:
