@@ -1,4 +1,6 @@
-# O que é Bootstrap❓
+​                                                                                                                                                                [<img src="C:\Users\cauan\Documents\GitHub\Bootstrap\linkedin.svg" style="zoom: 6%;" />Meu linkedin](www.linkedin.com/in/cauany-rodrigues)
+
+# Bootstrap
 
 :crystal_ball:  Bootstrap é um framework _front-end_ e de código _open source_ que permite o desenvolvimento rápido de sites responsivos com consistência de bibliotecas e comandos. É o framework _front-end_ mais utilizado pelo mundo .
 
