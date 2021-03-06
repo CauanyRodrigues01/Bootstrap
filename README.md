@@ -1,4 +1,4 @@
-​                                                                                                                                                                [<img src="C:\Users\cauan\Documents\GitHub\Bootstrap\linkedin.svg" style="zoom: 6%;" />Meu linkedin](www.linkedin.com/in/cauany-rodrigues)
+​                                                                                                                                                                                        [<img src="C:\Users\cauan\Documents\GitHub\Bootstrap\linkedin.svg" style="zoom: 6%;" />](www.linkedin.com/in/cauany-rodrigues)
 
 # Bootstrap
 
