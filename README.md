@@ -1,8 +1,20 @@
 # Bootstrap
 
-:crystal_ball:  Bootstrap é um framework _front-end_ e de código _open source_ que permite o desenvolvimento rápido de sites responsivos com consistência de bibliotecas e comandos. É o framework _front-end_ mais utilizado pelo mundo .
+:crystal_ball:  Bootstrap é um framework _front-end_ e de código _open source_ que permite o desenvolvimento rápido de sites responsivos com consistência de bibliotecas e comandos. É o framework _front-end_ mais utilizado pelo mundo.
 
 :mag_right: [O que é Framework?](#framework)
+
+## Índice
+
+1. [Como surgiu❓](#Como-surgiu)
+2. [O que é capaz de fazer❓](#O-que-é-capaz-de-fazer)
+3. [Os 3 Arquivos Primários](#Os-3-Arquivos-Primários)
+4. [Como baixar no Windows❓](#Como-baixar-no-Windows)
+5. [Containers responsivos com Bootstrap](#Containers-responsivos-com-Bootstrap)
+6. [Imagens responsivas com Bootstrap](#Imagens-responsivas-com-Bootstrap)
+7. [Texto com Bootstrap](#Texto-com-Bootstrap)
+8. [Botões com Bootstrap](#Botões-com-Bootstrap)
+9. [Sistema grid ou Grid Layout](#Sistema-grid-ou-Grid-Layout)
 
 ## Como surgiu❓
 
@@ -297,7 +309,56 @@ Para usar um botão sem backround basta modificar as classes padrões por `.btn-
     <button type="button" class="btn btn-lg btn-primary" disabled>Botão primário</button>
     ```
 
-    
+
+## Sistema grid ou Grid Layout
+
+É um sistema de grade responsivo de 12 colunas formado pela interseção de linhas horizontais e verticais, usada para para arranjar e alinhar o conteúdo na página. 
+
+<img src="https://miro.medium.com/max/500/1*dNUEmo5R7H6NIcvjHxoB6A.gif" style="zoom: 80%;" />
+
+1. Como sempre, organize os elementos dentro de uma `div` com a classe `.container`; 
+
+   ```html
+   <div class="container"> ... </div>
+   ```
+
+2. Organize os elementos dentro de uma `div` com a classe `rows`que serve para envolver as colunas.
+
+   ```html
+   <div class="container">
+     <div class="row">
+       ...
+     </div>
+   </div>
+   ```
+
+3.  Agora podemos indicar o número de colunas necessárias dentro de dessa `div`, com a possibilidade de ser até 12. Ressaltando que o Bootstrap tem diferentes atributos de largura de coluna (Veja em [Parâmetros grid](#Parâmetros-grid)).
+
+   ```html
+   <div class="container">
+     <div class="row">
+       <div class="col-sm">
+         uma coluna
+       </div>
+       <div class="col-sm">
+         outra coluna
+       </div>
+     </div>
+   </div>
+   ```
+
+### Parâmetros grid
+
+A estrutura é formada primeiramente pela palalavra `col`, depois pelo prefixo do tamanho e depois pela largura de quantas colunas o elemento deve ter: 
+
+`.col-prefixoTamanho-largura`
+
+|                             | Extra small    | Small      | Medium     | Large      | Extra large |
+| --------------------------- | -------------- | ---------- | ---------- | ---------- | ----------- |
+| Prefixo em classe           | `.col-`        | `.col-sm-` | `.col-md-` | `.col-lg-` | `.col-xl-`  |
+| Largura máxima do container | Não tem (auto) | 540px      | 720px      | 960px      | 1140px      |
+
+
 
 ###### Saiba mais:
 
