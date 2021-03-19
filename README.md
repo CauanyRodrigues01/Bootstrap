@@ -358,7 +358,33 @@ A estrutura é formada primeiramente pela palalavra `col`, depois pelo prefixo d
 | Prefixo em classe           | `.col-`        | `.col-sm-` | `.col-md-` | `.col-lg-` | `.col-xl-`  |
 | Largura máxima do container | Não tem (auto) | 540px      | 720px      | 960px      | 1140px      |
 
+## Ícones
 
+É possível usar várias bibliotecas de ícones externas dentro do Bootstrap. Os indicados pela própria documentação são o "Font Awesome", "Iconic" e "Actions". 
+
+### Usando os ícones da biblioteca Font Awesome
+
+1. Adicione o seguinte link no head do HTML
+
+   ```html
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   ```
+
+   :bulb: ​Para saber como instalar acesse o site da biblioteca [clicando aqui](https://fontawesome.com/)
+
+2. Use elementos do tipo inline como a tag para adicionar as classes Font Awesome. A tag `i` foi originalmente usado para deixar outros elementos em itálico, mas agora é comumente usado para ícones.
+
+   ```html
+   <i class="fas fa-thumbs-up"></i>
+   ```
+
+   Assim, é possível adicionar um ícone dentro de um butão por exemplo, veja:
+
+   ```html
+   <button class="btn"><i class="fas fa-thumbs-up"></i></button>
+   ```
+
+   
 
 ###### Saiba mais:
 
