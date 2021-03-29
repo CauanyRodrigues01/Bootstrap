@@ -373,7 +373,7 @@ A estrutura é formada primeiramente pela palalavra `col`, depois pelo prefixo d
 
    :bulb: ​Para saber como instalar acesse o site da biblioteca [clicando aqui](https://fontawesome.com/)
 
-2. Use elementos do tipo inline como a tag para adicionar as classes Font Awesome. A tag `i` foi originalmente usado para deixar outros elementos em itálico, mas agora é comumente usado para ícones.
+2. Use elementos do tipo inline como a tag `span` para adicionar as classes Font Awesome. A tag `i` foi originalmente usado para deixar outros elementos em itálico, mas agora é comumente usado para ícones.
 
    ```html
    <i class="fas fa-thumbs-up"></i>
