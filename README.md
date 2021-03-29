@@ -15,6 +15,7 @@
 7. [Texto com Bootstrap](#Texto-com-Bootstrap)
 8. [Botões com Bootstrap](#Botões-com-Bootstrap)
 9. [Sistema grid ou Grid Layout](#Sistema-grid-ou-Grid-Layout)
+10. [Ícones com Bootstrap](#Ícones)
 
 ## Como surgiu❓
 
